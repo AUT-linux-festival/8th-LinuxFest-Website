@@ -33,7 +33,7 @@
                                 <img class="col-sm-offset-10" width=150 height=150 src={{asset('storage/presenter/' . $s->_id . '/'."presenter_avatar")}}><br>
                                     <b>ایمیل:</b> {{$s->presenter_email}} <br>
                                     <b>شماره تماس:</b> {{$s->presenter_phone}} <br>
-                                    <b>توضیحات:</b> {{$s->presenter_bio}} <br>
+                                    <b>توضیحات:</b> {!! $s->presenter_bio !!} <br>
 
 
 

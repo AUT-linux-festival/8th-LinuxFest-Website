@@ -26,7 +26,7 @@
                                     <b>نام و نام خانوادگی:</b> {{$s->sponsor_person}} <br>
                                     <b>ایمیل:</b> {{$s->sponsor_email}} <br>
                                     <b>شماره تماس:</b> {{$s->sponsor_phone}} <br>
-                                    <b>توضیحات:</b> {{$s->description}} <br>
+                                    <b>توضیحات:</b> {!! $s->description !!} <br>
                                 </div>
                                 <div class="col-sm-5">
                                     <a href="{{URL::asset($s->logo)}}" target="_blank">
