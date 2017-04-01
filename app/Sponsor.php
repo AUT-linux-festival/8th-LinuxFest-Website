@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+use App\Http\Controllers\SiteController;
 
 /**
  * Class Sponsor
@@ -26,6 +27,11 @@ class Sponsor extends \Moloquent
         'sponsoring_method',
         'description'
     ];
+
+    public function getDescriptionAttribute($value)
+    {
+        return SiteController::getHTML($value);
+    }
 
     public static $data = [
         [

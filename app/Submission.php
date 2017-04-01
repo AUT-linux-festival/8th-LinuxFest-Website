@@ -1,6 +1,7 @@
 <?php
 
 namespace App;
+use App\Http\Controllers\SiteController;
 
 
 /**
@@ -26,4 +27,14 @@ class Submission extends \Moloquent
         'abstract',
         'description',
     ];
+
+    public function getAbstractAttribute($value)
+    {
+        return SiteController::getHTML($value);
+    }
+
+    public function getDescriptionAttribute($value)
+    {
+        return SiteController::getHTML($value);
+    }
 }
