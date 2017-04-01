@@ -26,7 +26,7 @@
                                     <b>نام و نام خانوادگی:</b> {{$sub->attendance_name}} <br>
                                     <b>ایمیل:</b> {{$sub->attendance_email}} <br>
                                     <b>شماره تماس:</b> {{$sub->attendance_phone}} <br>
-                                    <b>چکیده:</b> {{$sub->abstract}} <br>
+                                    <b>چکیده:</b> {!! $sub->abstract !!} <br>
                                     <b>توضیحات:</b> {!! $sub->description !!} <br>
                                 </div>
                                 <div class="col-sm-offset-11">
