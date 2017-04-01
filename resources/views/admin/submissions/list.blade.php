@@ -10,7 +10,7 @@
             </div>
             <hr>
             <div class="row">
-                @foreach($subs->sortBy('subject') as $sub)
+                @foreach($subs->sortByDesc('created_at') as $sub)
                     <div class="col-md-12">
                         <div class="panel panel-default">
                             <div class="panel-heading">
