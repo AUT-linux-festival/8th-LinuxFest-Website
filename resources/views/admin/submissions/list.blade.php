@@ -17,8 +17,8 @@
                                 <div class="col-sm-10">
                                     {!! $sub->subject !!}
                                 </div>
-                                <div class="col-sm-offset-10">
-                                    {{$sub->created_at}}
+                                <div class="col-sm-offset-11">
+                                    {{\Morilog\Jalali\Facades\jDate::forge($sub->created_at)->format("%H:%M %y/%m/%d ")}}
                                 </div>
                             </div>
                             <div class="panel-body" style="">

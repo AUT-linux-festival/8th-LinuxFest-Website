@@ -18,7 +18,7 @@
                                     {!! $s->sponsor_name !!}
                                 </div>
                                 <div class="col-sm-offset-10">
-                                    {{$s->created_at}}
+                                    {{\Morilog\Jalali\Facades\jDate::forge($s->created_at)->format("%H:%M %y/%m/%d ")}}
                                 </div>
                             </div>
                             <div class="panel-body" style="">

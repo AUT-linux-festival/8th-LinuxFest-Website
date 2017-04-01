@@ -181,6 +181,11 @@ return [
         // TODO: resolve the following
 //        Moloquent\MongodbQueueServiceProvider::class,
 
+        /*
+         * Jalali Date
+         */
+        Morilog\Jalali\JalaliServiceProvider::class,
+
     ],
 
     /*
@@ -238,6 +243,12 @@ return [
          * Moloquent Aliases
          */
         'Moloquent' => Moloquent\Eloquent\Model::class,
+
+        /*
+         * Jalali Date
+         */
+        'jDate' => Morilog\Jalali\Facades\jDate::class,
+        'jDateTime' => Morilog\Jalali\Facades\jDateTime::class,
 
     ],
 

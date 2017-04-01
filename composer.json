@@ -23,7 +23,7 @@
     "google/apiclient": "dev-master",
     "google/recaptcha": "~1.1",
     "hashids/hashids": "1.0.5",
-    "morilog/jalali": "^1.0",
+    "morilog/jalali": "^2.0",
     "fergusean/nusoap": "^0.9.5",
     "maatwebsite/excel": "^2.1.0",
     "laravelcollective/html": "5.2.*",
