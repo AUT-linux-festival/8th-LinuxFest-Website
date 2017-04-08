@@ -1,0 +1,115 @@
+@import "../css/bootstrap.min.css";
+@import "../css/bootstrap-rtl.min.css";
+@import "../css/awesome-bootstrap-checkbox.css";
+@import "../fonts/font-awesome/css/font-awesome.min.css";
+@import "../css/animate.min.css";
+
+@font-face {
+    font-family: 'entezar';
+    src: url('../fonts/entezar.otf') format('eot'), url('../fonts/entezar.ttf') format('truetype')
+}
+
+@font-face {
+    font-family: 'b roya';
+    src: url('../fonts/Roya-Regular.eot') format('eot'), url('../fonts/Roya-Regular.ttf') format('truetype')
+}
+*, *:before, *:after {
+    font-family: "b roya";
+    direction: rtl;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+
+ul.main {
+    list-style: none;
+    max-width: 75%;
+    margin: 20px auto;
+}
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+
+.date {
+    width: 17%;
+    padding: 15% 1% 0 0 ;
+    float: right;
+}
+
+.date h3 {
+    font-size: 1.5em;
+}
+
+.date p {
+    font-size: .8em;
+}
+
+.events {
+
+    float: right;
+    width: 80%;
+    border-right: 1px solid #ccc;
+    margin-top: 10%;
+    padding-top: 3%;
+}
+
+.events-detail {
+    max-width: 550px;
+}
+
+.events-detail li{
+    padding: 10px;
+    border-bottom: 1px dashed #ccc;
+    line-height: 22px;
+    transition: ease .4s , all;
+}
+
+.events-detail li:hover {
+    background: #e9e9e9;
+}
+
+.event-time {
+    font-weight: 900;
+}
+
+.events-detail li a {
+    text-decoration: none;
+    color: #444;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.event-location {
+    font-size: .8em;
+    color: #6290ff;
+    margin-left: 70px;
+}
+
+
+
+@media all and (max-width: 641px) {
+    .date {
+        width: 100%;
+        border-bottom: 1px solid #ccc;
+        margin-bottom: 10px;
+    }
+
+    .events {
+        border:none;
+        width: 100%;
+        margin-top: 0;
+    }
+
+    .events-detail {
+        padding: 0;
+    }
+
+    li.date p {
+        margin:0;
+    }
+}
