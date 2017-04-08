@@ -93,6 +93,12 @@
                     </a>
                 </li>
 
+                <li>
+                    <a class="page-scroll" href="{{url('/old_2016')}}">
+                        2016
+                    </a>
+                </li>
+
                 @if(Auth::check())
                     <li>
                         <a class="page-scroll" href="{{url('/logout')}}">
