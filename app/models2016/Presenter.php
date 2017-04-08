@@ -290,5 +290,4 @@ class Presenter extends StaticModel
     ];
 
     protected $guarded = [];
-
 }
