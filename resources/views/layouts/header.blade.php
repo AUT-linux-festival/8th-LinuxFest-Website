@@ -95,7 +95,7 @@
 
                 <li>
                     <a class="page-scroll" href="{{url('/old_2016')}}">
-                        2016
+                        دوره هشتم
                     </a>
                 </li>
 
